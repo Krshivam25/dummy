@@ -1,0 +1,53 @@
+.card {
+    border: 1px solid #e5e7eb; /* Tailwind gray-200 */
+    border-radius: 0.5rem; /* Tailwind rounded-lg */
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%); /* Tailwind white */
+    /* text-align: center; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Tailwind shadow */
+    transition: transform 0.2s;
+    width: 200px;
+    height: 250px;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .name {
+    font-size: 1rem; /* Tailwind text-base */
+    font-weight: 600; /* Tailwind font-semibold */
+    margin: 0.5rem 0;
+  }
+  
+  .symbol {
+    color: #fff; /* Tailwind gray-600 */
+    font-size: 0.875rem; /* Tailwind text-sm */
+  }
+  
+  .price,
+  .marketCap {
+    font-size: 0.875rem; /* Tailwind text-sm */
+    margin: 0.25rem 0;
+  }
+  
+  .priceChange {
+    font-size: 0.875rem; /* Tailwind text-sm */
+    margin: 0.5rem 0;
+    font-weight: 600; /* Tailwind font-semibold */
+  }
+  
+  .positive {
+    color: #10b981; /* Tailwind green-500 */
+  }
+  
+  .negative {
+    color: #ef4444; /* Tailwind red-500 */
+  }
+  
